@@ -1,17 +1,3 @@
-"""
-MTA Delay Data Collector
-========================
-Polls MTA GTFS-Realtime feeds every 60 seconds and stores trip update
-(delay) data in a local SQLite database.
-
-No API key required — MTA subway feeds are free and open.
-
-Setup:
-    pip install requests gtfs-realtime-bindings protobuf
-
-Usage:
-    python mta_collector.py
-"""
 
 import time
 import sqlite3
